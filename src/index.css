@@ -1,0 +1,48 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+    url(./utils/images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: end;
+  padding: 20px;
+}
+
+.navbar_logo {
+  width: 142px;
+  height: 142px;
+}
+
+.column-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.column {
+  background-color: #dddbdb4a;
+  width: 800px;
+  height: 200px;
+  border-radius: 10px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  display: flex;
+  width: f;
+}
+
+.column img {
+  width: 150px;
+  height: 150px;
+}
