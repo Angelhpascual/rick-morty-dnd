@@ -27,8 +27,11 @@ function App() {
         <img className="navbar_logo" src="/logo.png" alt="Logo" />
       </nav>
       <div className="column-container">
-        <div className="column"></div>
-        <div className="column"></div>
+        {Object.values(columns).map((column) => (
+          <div className="column">
+            {column.list.map((item) => item.content)}
+          </div>
+        ))}
       </div>
     </div>
   )
